@@ -1,0 +1,13 @@
+{{#if lang_cpp}}
+ifstream fin ("{{ file }}");
+char c_read;
+str = "";
+while (fin.get(c_read))
+	{{ str }} += c_read;
+{{/if}}
+{{#if lang_py}}
+{{ str }} = open("{{ file }}", 'r').read()
+{{/if}}
+{{#if lang_js}}
+{{ str }} = require('fs').readFileSync("{{ file }}")
+{{/if}}
