@@ -1,7 +1,7 @@
 {{#if lang_cpp}}
 ifstream fin ("{{ file }}");
 char c_read;
-str = "";
+{{ str }} = "";
 while (fin.get(c_read))
 	{{ str }} += c_read;
 {{/if}}
