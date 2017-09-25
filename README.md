@@ -1,5 +1,5 @@
 # Spellbook
-A Spell book for (stupefy)[https://github.
+A Spell book for (stupefy)[https://github.com/thelehhman/stupefy]
 
 ## Usage 
 
@@ -19,7 +19,7 @@ If you are doing web development, you can, for example:
 
 Also, the same spell works on different languages
 
-``py
+```py
 s = ''
 # enchant readFile, file: 'hello.txt', str: 's'
 ```
