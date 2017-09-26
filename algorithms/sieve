@@ -14,7 +14,7 @@ for (int i = 2;i <= sqrt({{ limit }});i++)
 }
 {{/if}}
 {{#if lang_py}}
-for x in range(0, {{ limit }}):
+for x in range(0, {{ limit }} + 1):
 	{{ array }}.append(True)
 {{ array }}[0] = {{ array }}[1] = False
 for i in range(2, int(math.sqrt({{ limit }})) + 1):
