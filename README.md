@@ -1,5 +1,5 @@
 # Spellbook
-A Spell book for (stupefy)[https://github.com/thelehhman/stupefy]
+A Spell book for [stupefy](https://github.com/thelehhman/stupefy).
 
 ## Usage 
 
