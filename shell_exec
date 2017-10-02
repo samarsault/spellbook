@@ -1,0 +1,9 @@
+{{#if lang_js}}
+require('child_process').execSync('{{ cmd }}');
+{{/if}
+{{#if lang_py}}
+os.system('{{ cmd }}')
+{{/if}}
+{{#if lang_c}}
+system("{{ cmd }}");
+{{/if}}
