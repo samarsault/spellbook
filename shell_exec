@@ -1,6 +1,6 @@
 {{#if lang_js}}
 require('child_process').execSync('{{ cmd }}');
-{{/if}
+{{/if}}
 {{#if lang_py}}
 os.system('{{ cmd }}')
 {{/if}}
